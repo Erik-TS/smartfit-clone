@@ -1,0 +1,470 @@
+@font-face {
+    font-family: Gotham-Black;
+    src: url(../fonts/gotham-black.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/GothamMedium.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body{
+    background-color: #212529;
+}
+
+hr{
+    color: gray;
+    width: 80%;
+    position: relative;
+    display: block;
+}
+
+/* Navbar */
+
+.my-navbar{
+    background-color: black !important;
+}
+
+.my-navbar a{
+    color: white !important;
+    font-size: 0.6rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+/* PlansSection */
+
+.plans-section{
+    padding-bottom: 80px;
+}
+
+.plans-section h1{
+    font-family: Gotham-Black;
+    font-size: 35px;
+}
+
+.plans-section p{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.plans-section-container{
+    width: 65%;
+}
+
+.plans-area{
+    margin: auto;
+}
+
+.plan-frame{
+    width: 30%;
+    display: inline-block;
+    top: 0rem;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+    margin-top: 50px;
+}
+
+.plan-frame span[class='black']{
+    color: #ffb612;
+}
+
+.plan-frame span[class='smart']{
+    color: black;
+}
+
+.plan-head-text{
+    color: white;
+}
+
+.plan-head-text p{
+    font-size: 22px;
+    line-height: 1.3;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: Gotham;
+}
+
+.plan-head-text h2{
+    margin-bottom: 0;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto black'] div[class = 'plan-head-text pb-5']{
+    background-color: black;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto smart'] div[class = 'plan-head-text pb-5']{
+    background-color: #ffb612;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto black'] div[class = 'plan-head-price']{
+    background-color: #ffb612;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto smart'] div[class = 'plan-head-price']{
+    background-color: black;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto black'] p[class = plan-head-text-type]{
+    color: #ffb612;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto smart'] p[class = plan-head-text-type]{
+    color: black;
+}
+
+.plan-differentials h5{
+    font-size: 15px;
+}
+
+.plan-differentials li{
+    color: black;
+}
+
+.plan-head-price{
+    z-index: 1;
+    bottom: 2.5rem;
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 0.8rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Gotham';
+    padding: 10px;
+}
+
+.preco-desconto{
+    margin-bottom: 0;
+}
+
+.plan-head-price h3, p{
+    font-size: 1rem;
+    font-family: 'Gotham', sans-serif;
+}
+
+.plan-head-price p{
+    font-weight: 400;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto black'] .preco-original{
+    text-decoration: line-through;
+    color: black;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto smart'] .preco-original{
+    text-decoration: line-through;
+    color: #ffb612;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto black'] .preco-desconto span{
+    text-decoration: line-through;
+    color: black;
+}
+
+.plan-frame[class = 'plan-frame bg-light mx-auto smart'] .preco-desconto span{
+    text-decoration: line-through;
+    color: #ffb612;
+}
+
+.plan-frame-button input{
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+    background-color: #ee162b;
+    color: white;
+}
+
+.plan-frame-button input[class='btn smart']{
+    margin-top: 290px;  
+}
+
+.plan-frame-descricao{
+    color: black;
+    font-family: 'Roboto';
+    padding: 0 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.consulte-texto{
+    color: gray;
+    font-family: 'Roboto';
+}
+
+/* app-area */
+
+.app-area{
+    font-family: Gotham, sans-serif;   
+}
+
+.app-area p{
+    font-size: 18px;
+    font-family: Gotham-, sans-serif;
+}
+
+.app-area div{
+    float: left;
+}
+
+.app-area-qrcode-text{
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: Gotham-Black, sans-serif;
+}
+
+.app-area-smartimage{
+    float: right;
+}
+
+.app-area-paragraph{
+    margin-left: 7rem;
+    width: 35%;
+    margin-right: 7rem;
+}
+
+.app-area-title{
+    font-size: 34px !important;
+    font-family: Gotham-Black, sans-serif;
+    font-weight: 900;
+    margin-top: 90px;
+}
+
+.app-area-qrcode a{
+    float: left;
+}
+
+/* features */
+
+.features{
+    background-color: white;
+}
+
+.features input{
+    background-color: yellow;
+    font-size: 15px;
+}
+
+.feature-card img{
+    border-radius: 30px;
+}
+
+.feature-card-desc{
+    color: white;
+    position: absolute;
+    width: 20%;
+    padding: 0 1rem;
+    top: 3395px;
+    font-family: Gotham;
+}
+
+.feature-card-desc p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.feature-card-desc input[type='button']{
+    margin-top: auto;
+    font-size: 14px;
+    background-color: #FFB612;
+}
+
+.feature-card-desc input:hover{
+    background-color: black;
+    color: white;
+}
+
+.feature-card-button{
+    text-align: center;
+}
+
+/* covid-area */
+
+.covid-area{
+    background-color: white;
+    font-family: Gotham;
+    padding-top: 2.5rem;
+}
+
+.covid-area h2{
+    font-family: Gotham-Black, sans-serif;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.covid-area p{
+    color: black;
+    font-size: 24px;
+    margin: 1.5rem;
+}
+
+.covid-area strong{
+    font-weight: 500;
+}
+
+.covid-area h5{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.covid-card{
+    background-color: #ffb612;
+    height: 100%;
+    font-size: 20px;
+    width: 110%;
+}
+
+.covid-card h5{
+    padding-top: 1rem;
+    width: 80%;
+}
+
+.covid-card p{
+    font-size: 13.7px;
+    font-family: 'Roboto, Helvetica', sans-serif;
+    font-weight: 400;
+    margin: 0.7rem;
+}
+
+.covid-card strong{
+    font-weight: 600;
+}
+
+.covid-card-row{
+    margin: 1.5rem 75px;
+}
+
+.covid-area input[type='button']{
+    background-color: #d52b1e;
+    color: white;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 0.5rem 3rem;
+    font-size: 18px;
+}
+
+/* ecosystem */
+
+.ecosystem{
+    font-family: 'Ghotham', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 5rem 5rem 0;
+    background-color: white;
+}
+
+.ecosystem h2{
+    font-family: Gotham-Black;
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.ecosystem p{
+    font-family: 'Roboto, Helvetica', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.ecosystem-square p{
+    z-index: 1;
+    position: relative;
+    bottom: 45px;
+    color: white;
+    font-weight: 500;
+    font-family: Gotham;
+    font-size: 14px;
+}
+
+/* subscription */
+
+.subscription{
+    background-color: #efefef;
+    text-align: center;
+    padding: 4rem;
+}
+
+.subscription input[type='text']{
+    line-height: 3rem;
+    border: none;
+    width: 50%;
+    padding: 0 1rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.subscription input[type='button']{
+    background-color: #d4d8d8;
+    padding: 1.05rem;
+    text-shadow: none;
+    border: none;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.subscription input[type='button']:hover{
+    color: white;
+    background-color: black;
+}
+
+.subscription-box{
+    height: fit-content;
+    width: 75%;
+    margin: auto;
+}
+
+.subscription-box p{
+    color: black;
+    font-size: 18px;
+}
+
+/* ipcs */
+
+.ipcs{
+    font-size: 15px;
+    padding: 0;
+    font-family: 'Roboto';
+    margin-bottom: 6rem;
+}
+
+.ipcs h3{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.ipcs li{
+    list-style: none;
+    line-height: 2rem;
+}
+
+.ipcs ul{
+    padding: 0;
+    width:fit-content;
+}
+
+.PageFooter-info h3, p{
+    font-family: 'Roboto';
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.PageFooter-info h3{
+    margin-bottom: 2rem;
+}
+
+.page-footer{
+    background-color: #1f2123;
+}
+
+.page-footer-container{
+    width: 65%;
+}
+
+.page-footer hr{
+    width: 100%;
+}
